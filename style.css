@@ -9,7 +9,6 @@ body{
     margin: 0;
     background-color:rgb(33, 37, 41);
     height: 100%;
-    padding-bottom: 100px;
 }
 .cover-cantainer{
     max-width: 672px;
@@ -77,8 +76,9 @@ main button{
     font-weight:bold;
 }
 footer{
-    color: hsl(0, 0%, 30%);
+    color: rgba(255, 255, 255, .5);
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
 }
 @media (max-width:790px){
     nav{
