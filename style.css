@@ -69,11 +69,13 @@ main {
     font-size:19px;
 }
 main button{
-    padding:10px 20px;
+    padding:15px 40px;
     background-color: #fff;
     border-radius: 5px;
     border:1px solid #fff;
     font-weight:bold;
+    font-size: 20px;
+    color:rgb(51, 51, 51);
 }
 footer{
     color: rgba(255, 255, 255, .5);
