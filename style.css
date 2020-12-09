@@ -17,10 +17,13 @@ nav {
 }
 nav ul{
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     flex-wrap: wrap;
     margin: 0;
     list-style-type: none;
+}
+nav ul li {
+    padding: 10px;
 }
 nav ul li a{
     text-decoration: none;
@@ -28,10 +31,17 @@ nav ul li a{
     color: #fff;
     padding: 0 4px;
 }
-.first-li{
+.nav-link-active{
     border-bottom: 4px solid white;
 }
-nav ul h3{
+.nav-link{
+    border-bottom: transparent;
+    color: hsl(0, 0%, 30%);
+}
+.nav-link:hover{
+    border-bottom: 4px solid hsl(0, 0, 30%);
+}
+nav h3{
     font-size: 1.75rem;
     color: #fff;
     font-family:'Roboto', sans-serif ;
